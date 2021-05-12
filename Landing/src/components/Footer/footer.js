@@ -80,6 +80,7 @@ class Footer extends Component {
                             defaultCenter={this.props.center}
                             defaultZoom={this.props.zoom}
                             >
+                             
                             <AnyReactComponent
                                 lat={22.72533}
                                 lng={71.62872}
