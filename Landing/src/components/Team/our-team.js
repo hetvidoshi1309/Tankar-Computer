@@ -16,9 +16,8 @@ class OurTeam extends Component {
         members : [
             { id : 1, name : "Mahendra N Savajadiya", image : team1, post : "Owner / Proprietor",
                 socials : [
-                    { class : "mdi mdi-facebook", link : "#" },
+                    { class : "mdi mdi-facebook", link : "https://www.facebook.com/mahendra.savajadiya.7443" },
                     { class : "mdi mdi-google", link : "#" },
-                    { class : "mdi mdi-twitter", link : "#" },
                 ]
             },
             { id : 2, name : "Parth M Savajadiya", image : team2, post : "Co-Owner",

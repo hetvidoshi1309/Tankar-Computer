@@ -7,7 +7,7 @@ import GetStarted from "../../components/Get Started/get-started";
 import Services from "../../components/Services/services";
 import Clients from "../../components/Clients/clients";
 import OurTeam from "../../components/Team/our-team";
-import Pricing from "../../components/Pricing/pricing";
+// import Pricing from "../../components/Pricing/pricing";
 import GetInTouch from "../../components/Get in Touch/get-in-touch";
 
 class Index1 extends Component {
@@ -68,7 +68,7 @@ class Index1 extends Component {
         <OurTeam />
 
         {/* import pricing */}
-        <Pricing />
+        {/* <Pricing /> */}
 
         {/* import get in touch */}
         <GetInTouch />

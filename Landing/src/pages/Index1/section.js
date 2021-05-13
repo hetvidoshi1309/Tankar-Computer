@@ -30,8 +30,8 @@ class Section extends Component {
                             <Container>
                                 <Row className="row justify-content-center">
                                     <Col lg="10" className="text-center">
-                                        <h6 className="home-title text-white">We help to make your business grow</h6>
-                                        <p className="pt-4 home-sub-title text-white mx-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                        <h6 className="home-title text-white">We help to grow your Contractor work.</h6>
+                                        <p className="pt-4 home-sub-title text-white mx-auto">Tankar Computer help about your all e-tendering activities. Here you can prepare your Estimate and DTP. We do all types of Regestration.</p>
                                     </Col>
                                 </Row>
                                 {/* Render ModalSection Component for Modal */}

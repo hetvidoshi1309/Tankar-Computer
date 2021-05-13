@@ -17,18 +17,11 @@ import img4 from "../../assets/images/clients/4.png";
 import img5 from "../../assets/images/clients/5.png";
 import img6 from "../../assets/images/clients/6.png";
 import img7 from "../../assets/images/clients/7.png";
-import user from "../../assets/images/clients/user-1.png";
+// import user from "../../assets/images/clients/user-1.png";
 
 class Clients extends Component {
   state = {
     clients: [
-      { id: 1, img: img1 },
-      { id: 2, img: img2 },
-      { id: 3, img: img3 },
-      { id: 4, img: img4 },
-      { id: 5, img: img5 },
-      { id: 6, img: img6 },
-      { id: 7, img: img7 },
       { id: 1, img: img1 },
       { id: 2, img: img2 },
       { id: 3, img: img3 },
@@ -57,10 +50,10 @@ class Clients extends Component {
       <React.Fragment>
         <section className="section bg-light" id="client">
           <Container>
-            <SectionTitle title1="Our" title2="Client" />
-            <Row className="mt-4 pt-4 justify-content-center">
-              <Col lg="8">
-                <div className="testimonial-box text-center">
+            <SectionTitle title1="Our" title2="Main Focus" />
+            {/* <Row className="mt-4 pt-4 justify-content-center">
+              <Col lg="8"> */}
+                {/* <div className="testimonial-box text-center">
                   <h1>
                     <i className="mdi mdi-format-quote-open text-muted"></i>
                   </h1>
@@ -88,10 +81,10 @@ class Clients extends Component {
                     <span className="mdi mdi-star text-warning mr-1"></span>
                     <span className="mdi mdi-star text-warning mr-1"></span>
                   </p>
-                </div>
-              </Col>
-            </Row>
-
+                </div> */}
+              {/* </Col>
+            </Row> */}
+            
             <Row className="pt-4 mt-4">
               <Col sm="12">
                 <OwlCarousel

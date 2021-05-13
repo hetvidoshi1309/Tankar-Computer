@@ -15,7 +15,7 @@ class NavbarPage extends Component {
         { id: 1, idnm: "home", navheading: "Home" },
         { id: 2, idnm: "features", navheading: "Features" },
         { id: 3, idnm: "service", navheading: "Services" },
-        { id: 4, idnm: "client", navheading: "Client" },
+        { id: 4, idnm: "client", navheading: "Main Focus" },
         { id: 5, idnm: "team", navheading: "Team" },
         // { id: 6, idnm: "pricing", navheading: "Pricing" },
         { id: 7, idnm: "contact", navheading: "Contact" },

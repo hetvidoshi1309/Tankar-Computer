@@ -7,15 +7,6 @@ import GoogleMapReact from 'google-map-react';
 import FooterLinks from "./footer-links";
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
- 
-// class SimpleMap extends Component {
-//   static defaultProps = {
-//     center: {
-//       lat: 59.95,
-//       lng: 30.33
-//     },
-//     zoom: 11
-//   };
 
 class Footer extends Component {
 
@@ -63,20 +54,21 @@ class Footer extends Component {
     render() {
         return (
             <React.Fragment>
-        <section className="section bg-light"> 
+            <section className="section bg-light"> 
             <Container>
                 <Row>
                     <Col lg="4">
-                        {/* <p className="text-uppercase footer-title">Help center</p>
+{/* 
+                        <p className="text-uppercase footer-title">Help center</p>
                         <ul className="list-unstyled company-sub-menu">
                             <li><Link to="#">Accounting </Link></li>
                             <li><Link to="#">Billing</Link></li>
                             <li><Link to="#">General Question</Link></li>
-                        </ul> */}
+                        </ul>  */}
 
                         <div style={{ height: '230px', width: '300px' }}>
                             <GoogleMapReact
-                            bootstrapURLKeys={{ key: AIzaSyCEuNVNDq1Wa9Cc9xstGnCXH3ygRWy8sjQ }}
+                            // bootstrapURLKeys={{ key: AIzaSyCEuNVNDq1Wa9Cc9xstGnCXH3ygRWy8sjQ }}
                             defaultCenter={this.props.center}
                             defaultZoom={this.props.zoom}
                             >
@@ -87,7 +79,7 @@ class Footer extends Component {
                                 text="Tankar Computer"
                             />
                             </GoogleMapReact>
-                        </div>
+                        </div> 
                     </Col>
                     {
                         this.state.footerItems.map((item, key) =>

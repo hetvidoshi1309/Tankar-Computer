@@ -6,7 +6,7 @@ import SectionTitle from "../../components/common/section-title";
 
 //Import Images
 import img1 from "../../assets/images/features/mockup1.png";
-import img2 from "../../assets/images/features/mockup2.png";
+// import img2 from "../../assets/images/features/mockup2.png";
 import FeatureBox from "../common/feature-box";
 
 class Features extends Component {
@@ -29,13 +29,13 @@ class Features extends Component {
               <Col lg="6" className="mt-2 text-center">
                 <FeatureBox
                   class=""
-                  title="This is Improve Your Marketing business"
+                  title="This is Improve Your Experience"
                   desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
                   link="#"
                 />
               </Col>
             </Row>
-            <Row className="mt-5 vertical-content">
+            {/* <Row className="mt-5 vertical-content">
               <Col lg="6" className="mt-2">
                 <FeatureBox
                   class="text-center"
@@ -53,7 +53,7 @@ class Features extends Component {
                   />
                 </div>
               </Col>
-            </Row>
+            </Row> */}
           </Container>
         </section>
       </React.Fragment>
