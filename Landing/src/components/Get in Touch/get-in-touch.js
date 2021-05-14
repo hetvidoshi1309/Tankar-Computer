@@ -18,6 +18,7 @@ class GetInTouch extends Component {
     };
   }
 
+
   handleSubmit = () => {
     let emailPattern = new RegExp(/^[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[A-Za-z]+$/);
 
@@ -153,6 +154,7 @@ class GetInTouch extends Component {
                       name="send"
                       className="submitBnt btn btn-primary btn-custom"
                       value="Send Message"
+                      // onClick={submitForm}
                     />
                     <div id="simple-msg"></div>
                   </Col>

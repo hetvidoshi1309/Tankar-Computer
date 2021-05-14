@@ -30,12 +30,12 @@ class Features extends Component {
                 <FeatureBox
                   class=""
                   title="What make us Special?"
-                  desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                  desc="Our company has more than 25 years of experience, having been founded in 1995. As a result, we are experts in this field. You can get the best results, on-time delivery, and any form of assistance at any time."
                   link="#"
                 />
               </Col>
             </Row>
-            <Row className="mt-5 vertical-content">
+            {/* <Row className="mt-5 vertical-content">
               <Col lg="6" className="mt-2">
                 <FeatureBox
                   class="text-center"
@@ -53,7 +53,7 @@ class Features extends Component {
                   />
                 </div>
               </Col>
-            </Row>
+            </Row> */}
           </Container>
         </section>
       </React.Fragment>
