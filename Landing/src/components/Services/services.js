@@ -10,14 +10,14 @@ import ServiceBox from "./service-box";
 class Services extends Component {
     state = {
         services : [
-            { title : "Digital Key", icon : "mbri-code", description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor dolore mag na aliqua." },
-            { title : "Online Tendering", icon : "mbri-features", description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor dolore mag na aliqua." },
-            { title : "Regestration", icon : "mbri-growing-chart", description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor dolore mag na aliqua." },
+            { title : "Digital Key", icon : "mbri-code", description : "We create, upload, fill out, and open your tender using a digital key known as an e-token." },
+            { title : "Online Tendering", icon : "mbri-features", description : "We will assist you in creating, uploading, filling out, and opening your tender." },
+            { title : "Regestration", icon : "mbri-growing-chart", description : "Our company will assist you with GST, MSME, and GEM registration for online tendering." },
         ],
         services1 : [
-            { title : "Estimate & DTP", icon : "mbri-photos", description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor dolore mag na aliqua." },
-            { title : "Computer Job Work", icon : "mbri-responsive", description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor dolore mag na aliqua." },
-            { title : "Printing & Xerox", icon : "mbri-download", description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor dolore mag na aliqua." },
+            { title : "Estimate & DTP", icon : "mbri-photos", description : "This will assist you in preparing an estimate as well as a draft tender paper (DTP) for your tenders." },
+            { title : "Computer Job Work", icon : "mbri-responsive", description : "We will assist you with gujarati and English typing, page design, and other computer-related tasks." },
+            { title : "Printing & Xerox", icon : "mbri-download", description : "Other services provided by our company include printing, xeroxing, and lamination." },
         ],
         
     }
